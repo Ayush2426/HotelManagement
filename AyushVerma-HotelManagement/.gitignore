@@ -1,0 +1,94 @@
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.nar
+*.rar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+.code-workspace
+
+# Spring Boot
+application-*.properties
+application-*.yml
+*.properties.local
+*.yml.local
+
+# Logs
+logs/
+*.log
+log/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+.directory
+Desktop.ini
+
+# Environment variables and secrets
+.env
+.env.local
+secrets.properties
+application-secrets.properties
+application-secrets.yml
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# Local configuration
+.localconfig/
+
+# Documentation build output
+javadoc/
+docs/_build/
+
+# Test coverage reports
+.coverage
+htmlcov/
+coverage/
+.nyc_output/
+jacoco.exec
